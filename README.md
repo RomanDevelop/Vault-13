@@ -1,17 +1,6 @@
 # vault_13
 
-A new Flutter project.
+<img width="191" alt="Снимок экрана 2024-06-22 в 17 25 06" src="https://github.com/RomanDevelop/Vault-13/assets/129858140/36c5bdb0-cff6-419e-b081-4392b2d660ae">
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # Vault-13
