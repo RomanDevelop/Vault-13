@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/login': (context) => const LoginScreen(),
         '/home': (context) => const HomeScreen(),
-        // '/video-call': (context) => const VideoCallScreen(),
+        // '/video-call': (context) => const VideoCallScreen(), 1.16.04
       },
       home: StreamBuilder(
         stream: AuthMethods().authChanges,
