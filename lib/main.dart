@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomeScreen(),
         // '/video-call': (context) => const VideoCallScreen(),
       },
-      //  home: LoginScreen(),
       home: StreamBuilder(
         stream: AuthMethods().authChanges,
         builder: (context, snapshot) {
