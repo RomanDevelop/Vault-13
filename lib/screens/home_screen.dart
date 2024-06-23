@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vault_13/resources/auth_methods.dart';
+import 'package:vault_13/screens/history_meeting_screen.dart';
+import 'package:vault_13/screens/meeting_screen.dart';
 import 'package:vault_13/utils/color.dart';
 import 'package:vault_13/widgets/custom_button.dart';
 
@@ -19,8 +21,8 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   List<Widget> pages = [
-    // MeetingScreen(),
-    // const HistoryMeetingScreen(),
+    MeetingScreen(),
+    const HistoryMeetingScreen(),
     const Text('Contacts'),
     CustomButton(text: 'Log Out', onPressed: () => AuthMethods().signOut()),
   ];
